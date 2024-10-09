@@ -15,6 +15,9 @@ TARGET_OTA_ASSERT_DEVICE := vayu,bhima
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_vayu
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_vayu
